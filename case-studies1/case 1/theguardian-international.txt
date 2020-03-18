@@ -1,4 +1,4 @@
-**The following filters blocks all adds on theguardian.com/international
+**The following filters blocks all ads on theguardian.com/international
 
 *[example article:](https://www.theguardian.com/football/2020/mar/15/virgil-van-dijk-fears-coronavirus-could-see-premier-league-title-won-empty-stadium-liverpool)
 
