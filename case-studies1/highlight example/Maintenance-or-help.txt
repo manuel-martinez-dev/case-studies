@@ -1,0 +1,6 @@
+I believe that in order to assist or to better the process of creation or maintenance of filters, it would really help to have an extension that can detect the ads and highlight them in the page, that way it would facilitate the pinpointing, rather than downloading the source page or to check its sources using the browser.
+
+There could also be a possibility for the extension to detect if certain ads are added or modified/updated when a website changes part of their structure (adding new pages, etc), this new add does not need to be user reported, but the extension simply includes such ad related information to a database to be later reviewed by the developer and provide possible filter alternatives, that way the developer can decide how apply them.
+
+
+The images attached on folder, are simple examples of how it could be shown on the page.
