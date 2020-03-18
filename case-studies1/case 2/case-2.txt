@@ -1,0 +1,55 @@
+**case 2:
+
+----
+http://www.nicesearches.com/public/image/logo.png
+
+filter proposed:
+/logo.png^$image
+
+----
+https://net.ootil.fr/stopads/config_resources/urlfull.css
+
+filter proposed:
+/urlfull.css*$stylesheet
+
+----
+http://sites.nicesearches.com/?f=*&c=*
+
+filter proposed:
+sites.nicesearches.com^$subdocument
+
+----
+http://k.fcdhxla.com/tt?size=*&t=*&tid=*&ri=*&s=
+
+filter proposed:
+k.fcdhxla.com/tt^$subdocument,third-party
+
+----
+http://net.ootil.fr/addo/ban.php?id=*&ref=*//www.nicesearches.com/?type=*&ts=*&from=*&uid=*&z=*
+
+filter proposed:
+/ban.php*^$subdocument,third-party
+
+----
+http://d36mw5gp02ykm5.cloudfront.net/js/adp.js
+
+filter proposed:
+/adp.js*$script,third-party,domain=k.fcdhxla.com
+
+----
+http://static06.nicesearches.com/i1464773165142009.png
+
+filter proposed:
+/static06.nicesearches.com^$image,domain=sites.nicesearches.com
+
+-----
+http://c.searchthinks.com/ftpup/images/adplus/2016/04/14/376c797a80575225a753baaf086948ee.png
+
+filter proposed:
+/c.searchthinks
+/adplus^$image,third-party,domain=c.searchthinks.com
+
+-----
+Another option would be to simply block the following source website:
+
+*k.fcdhxla*^$script,subdocument

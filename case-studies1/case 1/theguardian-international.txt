@@ -1,0 +1,21 @@
+**The following filters blocks all adds on theguardian.com/international
+
+*[example article:](https://www.theguardian.com/football/2020/mar/15/virgil-van-dijk-fears-coronavirus-could-see-premier-league-title-won-empty-stadium-liverpool)
+
+
+/www.googleadservices
+/www.google.fr/ads
+/static.ads-twitter
+/showad
+/securepubads.g.doubleclick.net
+/pagead2.googlesyndication
+/googleads.g.doubleclick
+/c.amazon-adsystem
+
+**The following filters can be used as some alternatives also:
+
+g.doubleclick.net^$third-party
+/uwt.js
+/pagead2.
+/gpt.js$script
+/apstag.js

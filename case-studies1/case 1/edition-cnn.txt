@@ -1,0 +1,23 @@
+**The following filters blocks all adds on edition.cnn.com
+
+*[example article:](https://edition.cnn.com/2020/03/13/entertainment/heidi-klum-coronavirus/index.html)
+
+/adservice.google
+/ad.doubleclick
+/amplify.outbrain
+/widgets.outbrain
+/pagead2.googlesyndication
+/securepubads.g.doubleclick
+/static.ads-twitter
+/cdn.adsafeprotected
+/c.amazon-adsystem
+
+**The following filters can be used as some alternatives also:
+
+/apstag.js
+g.doubleclick.net^$third-party
+adsafeprotected.com^$third-party
+/obtp.js
+/gpt.js
+/uwt.js
+/pagead2.

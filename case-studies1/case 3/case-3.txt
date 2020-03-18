@@ -1,0 +1,6 @@
+The following filter is a false positive:
+
+[##.panel-rt.panel-box.article-more]
+
+The filter is hiding the "div" (html tag) class which contains more of the site's content,
+thus blocking users from accesing further information.
