@@ -3,9 +3,9 @@
 ## Introduction:
 
 **Important Notice**
-*Please note that the following cases may vary depending on the candidate and in no purpose can be considered as the sole answer to the problems presented*
+*Please note that the following cases may vary depending on the candidate and in no purpose can these be considered as the sole answer to the problems presented*
 
-As part of a selection process, I was asked to complete several case studies on how to add filters using [addBlocl Plus](https://adblockplus.org/).
+As part of a selection process, I was asked to complete several case studies on how to add filters using [addBlock Plus](https://adblockplus.org/).
 
 #### Description:
 
