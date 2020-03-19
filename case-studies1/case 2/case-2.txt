@@ -16,13 +16,13 @@ filter proposed:
 http://sites.nicesearches.com/?f=*&c=*
 
 filter proposed:
-sites.nicesearches.com^$subdocument
+||sites.nicesearches.com^$subdocument
 
 ----
 http://k.fcdhxla.com/tt?size=*&t=*&tid=*&ri=*&s=
 
 filter proposed:
-k.fcdhxla.com/tt^$subdocument,third-party
+||k.fcdhxla.com/tt^$subdocument,third-party
 
 ----
 http://net.ootil.fr/addo/ban.php?id=*&ref=*//www.nicesearches.com/?type=*&ts=*&from=*&uid=*&z=*
@@ -50,6 +50,8 @@ filter proposed:
 /adplus^$image,third-party,domain=c.searchthinks.com
 
 -----
-Another option would be to simply block the following source website:
+The filters provided above would block the information on the URLs
+but if we read all the addresses we can see that the ad seems to come from another address, 
+so all we can do is just apply the following filter:
 
-*k.fcdhxla*^$script,subdocument
+||k.fcdhxla.com^$script,subdocument,image

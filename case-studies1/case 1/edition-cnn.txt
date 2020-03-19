@@ -15,8 +15,8 @@
 **The following filters can be used as some alternatives also:
 
 /apstag.js
-g.doubleclick.net^$third-party
-adsafeprotected.com^$third-party
+||g.doubleclick.net^$third-party
+||adsafeprotected.com^$third-party
 /obtp.js
 /gpt.js
 /uwt.js

@@ -14,7 +14,7 @@
 
 **The following filters can be used as some alternatives also:
 
-g.doubleclick.net^$third-party
+||g.doubleclick.net^$third-party
 /uwt.js
 /pagead2.
 /gpt.js$script
