@@ -17,7 +17,7 @@ Only two browsers were used (Chrome and Opera) by installing their respective ex
 
 - [Opera](https://addons.opera.com/en/extensions/details/adblock-plus/)
 
-In order to better understand filter creation only the official documentation was used.
+The official documentation can be found here:
 
 ##### Documentation:
 
